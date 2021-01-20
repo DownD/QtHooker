@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtHookerDll", "QtHookerDll.vcxproj", "{651651CB-0202-4030-B74A-0B07A4A8BE4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{651651CB-0202-4030-B74A-0B07A4A8BE4D}.Debug|x64.ActiveCfg = Debug|Win32
+		{651651CB-0202-4030-B74A-0B07A4A8BE4D}.Debug|x86.ActiveCfg = Debug|Win32
+		{651651CB-0202-4030-B74A-0B07A4A8BE4D}.Debug|x86.Build.0 = Debug|Win32
+		{651651CB-0202-4030-B74A-0B07A4A8BE4D}.Release|x64.ActiveCfg = Release|Win32
+		{651651CB-0202-4030-B74A-0B07A4A8BE4D}.Release|x86.ActiveCfg = Release|Win32
+		{651651CB-0202-4030-B74A-0B07A4A8BE4D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C876A0BD-ECBD-460B-8F10-8757F08262E4}
+	EndGlobalSection
+EndGlobal
