@@ -3,7 +3,7 @@ Simple dll to hook [QNetworkAccessManager::post](https://doc.qt.io/qt-5/qnetwork
 Once this library is injected into a process using QT version 5.12.5, it will open a command print and print all post and get requests.
 
 ## Compilation
-Be sure to have the QT library in "C:\Qt\Qt5.12.5\5.12.5\msvc2017" and just hit compile. To change the path, just edit the "Additional include directories" and "Additional library directories"
+Be sure to have the QT library in "C:\Qt\Qt5.12.5\5.12.5\msvc2017", select Release and just hit compile. To change the path, just edit the "Additional include directories" and "Additional library directories"
 
 ## Dependencies
 QT - 5.12.5 <br>
