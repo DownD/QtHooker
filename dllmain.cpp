@@ -33,6 +33,7 @@ bool HookFunction(void** toHook, void* interception, const char* name) {
 
     LONG lError = DetourTransactionCommit();
     if (lError != NO_ERROR) {
+        printf("ERROR - Failed to hook function %s\n", name);
         return false;
     }
 
@@ -195,7 +196,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
         //hThread = CreateThread(NULL, NULL, &mainIntercept, &mod, NULL, NULL);
     case DLL_THREAD_ATTACH:
     case DLL_THREAD_DETACH:
-        Leave();
+        //Leave();
     case DLL_PROCESS_DETACH:
         break;
     }
