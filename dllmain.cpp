@@ -1,7 +1,7 @@
 // dllmain.cpp : Defines the entry point for the DLL application.
 #include "pch.h"
 #include <QtNetwork/QNetworkAccessManager>
-#include "detours.h"
+#include <detours/detours.h>
 #include <QtNetwork/QHttpMultiPart>
 
 
